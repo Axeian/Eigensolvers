@@ -2,7 +2,7 @@ import React from "react";
 
 function People() {
   return (
-    <div className="container  my-5">
+    <div className="container my-5">
       <div className="col col-md-6 m-auto">
         <span className="d-block text-center h4 pt-2">Who We Are</span>
         <div

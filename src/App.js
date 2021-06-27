@@ -1,7 +1,8 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import LandingCarousel from "./components/LandingCarousel";
-import WhatWeDo from "./components/WhatWeDo";
+import HeroHeader from "./components/HeroHeader";
+import Updates from "./components/Updates";
+import Workshops from "./components/Workshops";
 import Blogs from "./components/Blogs";
 import People from "./components/People";
 import ContactUs from "./components/ContactUs";
@@ -11,9 +12,11 @@ function App() {
     <div className="App">
       <Navbar />
 
-      <LandingCarousel />
+      <HeroHeader />
 
-      <WhatWeDo />
+      <Updates />
+
+      <Workshops />
 
       <Blogs />
 

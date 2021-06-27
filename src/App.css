@@ -1,0 +1,4 @@
+.update:hover,
+.nav-link:hover {
+  cursor: pointer;
+}

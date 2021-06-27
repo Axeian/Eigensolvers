@@ -29,11 +29,14 @@ function Updates() {
             />
           </div>
           <div class="col-md-8" style={{ backgroundColor: "#f5f5f5" }}>
-            <div class="list-group my-1">
+            <div class="list-group my-1 update">
               <a
-                href="#"
                 class="list-group-item list-group-item-action"
                 aria-current="true"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("teqs").scrollIntoView(true);
+                }}
               >
                 <div class="d-flex w-100 justify-content-between">
                   <h5 class="mb-1">

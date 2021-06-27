@@ -4,12 +4,12 @@ function Navbar() {
   return (
     <div>
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark"
-        style={{ opacity: "0.95" }}
+        class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+        style={{ opacity: "0.85" }}
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Navbar
+            Eigensolvers
           </a>
           <button
             class="navbar-toggler"
@@ -25,69 +25,44 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                  class="nav-link active"
+                  aria-current="page"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("teqs").scrollIntoView(true);
+                  }}
                 >
-                  Dropdown
+                  Workshops
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
               </li>
+
               <li class="nav-item">
                 <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
+                  class="nav-link active"
+                  aria-current="page"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("blogs").scrollIntoView(true);
+                  }}
                 >
-                  Disabled
+                  Blogs
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById("about").scrollIntoView(true);
+                  }}
+                >
+                  About
                 </a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>

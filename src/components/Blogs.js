@@ -28,7 +28,7 @@ function Blogs() {
         <div className="row g-0">
           <div className="col-md-4 order-md-last">
             <img
-              src="./blog1.jpg"
+              src={process.env.PUBLIC_URL + "/blog1.jpg"}
               className="img-fluid rounded-start"
               alt="..."
             />
@@ -66,7 +66,7 @@ function Blogs() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="./blog2.jpg"
+              src={process.env.PUBLIC_URL + "/blog2.jpg"}
               className="img-fluid rounded-start"
               alt="..."
             />

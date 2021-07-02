@@ -9,7 +9,13 @@ function Navbar() {
       >
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Eigensolvers
+            <img
+              src={process.env.PUBLIC_URL + "/logo192.png"}
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
           </a>
           <button
             className="navbar-toggler"

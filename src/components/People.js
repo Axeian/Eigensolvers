@@ -48,7 +48,11 @@ function People() {
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <div className="col">
           <div className="card p-1 person" style={{ border: "none" }}>
-            <img src="./adam.jpeg" className="card-img-top" alt="..." />
+            <img
+              src={process.env.PUBLIC_URL + "/adam.jpeg"}
+              className="card-img-top"
+              alt="..."
+            />
             <div className="card-body">
               <h5 className="card-title lead">Adam Fattal</h5>
               <small className="card-text text-muted">
@@ -69,7 +73,11 @@ function People() {
         </div>
         <div className="col">
           <div className="card p-1 person" style={{ border: "none" }}>
-            <img src="./emilio.jpeg" className="card-img-top" alt="..." />
+            <img
+              src={process.env.PUBLIC_URL + "/emilio.jpeg"}
+              className="card-img-top"
+              alt="..."
+            />
             <div className="card-body">
               <h5 className="card-title lead">Emilio Peláez</h5>
               <small className="card-text text-muted">
@@ -91,7 +99,11 @@ function People() {
         </div>
         <div className="col">
           <div className="card p-1 person" style={{ border: "none" }}>
-            <img src="./mehil.jpeg" className="card-img-top" alt="..." />
+            <img
+              src={process.env.PUBLIC_URL + "/mehil.jpeg"}
+              className="card-img-top"
+              alt="..."
+            />
             <div className="card-body">
               <h5 className="card-title lead">Mehil Agarwal</h5>
               <small className="card-text text-muted">
@@ -112,7 +124,11 @@ function People() {
         </div>
         <div className="col">
           <div className="card p-1 person" style={{ border: "none" }}>
-            <img src="./minh.jpeg" className="card-img-top" alt="..." />
+            <img
+              src={process.env.PUBLIC_URL + "/minh.jpeg"}
+              className="card-img-top"
+              alt="..."
+            />
             <div className="card-body">
               <h5 className="card-title lead">Minh Pham</h5>
               <small className="card-text text-muted">

@@ -22,7 +22,7 @@ function Updates() {
         <div className="row g-0">
           <div className="col-md-4 order-md-last">
             <img
-              src="./updates.jpg"
+              src={process.env.PUBLIC_URL + "/updates.jpg"}
               className="img-fluid rounded-start"
               alt="..."
             />

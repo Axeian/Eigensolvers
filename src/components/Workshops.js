@@ -20,7 +20,7 @@ function Workshops() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="./workshop.jpg"
+              src={process.env.PUBLIC_URL + "/workshop.jpg"}
               className="img-fluid rounded-start"
               alt="..."
               style={{

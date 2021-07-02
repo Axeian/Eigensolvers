@@ -24,7 +24,7 @@ function HeroHeader() {
         width: "100%",
         height: "720px",
         overflow: "hidden",
-        background: `linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(${process.env.PUBLIC_URL}/board2.jpg) no-repeat fixed center`,
+        background: `linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(${process.env.PUBLIC_URL}/board2.jpg) no-repeat center`,
         backgroundSize: "100% 100%",
       }}
       className="row justify-content-center align-items-center m-0"

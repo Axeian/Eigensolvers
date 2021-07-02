@@ -2,16 +2,16 @@ import React from "react";
 
 function HeroHeader() {
   return (
-    // <div class="card bg-dark text-white">
-    //   <img src="./board2.jpg" class="card-img" alt="..." />
+    // <div className="card bg-dark text-white">
+    //   <img src="./board2.jpg" className="card-img" alt="..." />
     //   <div
-    //     class="card-img-overlay container text-center"
+    //     className="card-img-overlay container text-center"
     //     style={{ marginTop: "40px" }}
     //   >
-    //     <h5 class="card-title lead display-3">
+    //     <h5 className="card-title lead display-3">
     //       <strong>THE EIGENSOLVERS</strong>
     //     </h5>
-    //     <p class="card-text display-5">
+    //     <p className="card-text display-5">
     // Four guys who met on Reddit come together to learn and explore various
     // aspects of Quantum Computing and expand the QC commumity
     //     </p>
@@ -25,9 +25,9 @@ function HeroHeader() {
         height: "720px",
         overflow: "hidden",
         background:
-          "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(./board2.jpg) no-repeat fixed ",
+          "linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(./board2.jpg) no-repeat fixed center",
       }}
-      className="row justify-content-center align-items-center"
+      className="row justify-content-center align-items-center m-0"
     >
       {/* <img
         src="./board2.jpg"
@@ -39,25 +39,25 @@ function HeroHeader() {
           color: "black",
           fontFamily: "helvetica",
         }}
-        className="col-md-9"
+        className="col-md-10"
       >
         {/* <h1 className="display-2" style={{ fontFamily: "helvetica" }}>
           <strong>THE EIGENSOLVERS</strong>
         </h1> */}
 
         <div
-          class="card"
+          className="card"
           style={{
             backgroundColor: "transparent",
             color: "white",
             border: "none",
           }}
         >
-          <div class="row g-0">
-            <div class="col-sm-3">
+          <div className="row g-0">
+            <div className="col-sm-3">
               <img
                 src="./logo192.png"
-                class="img-fluid rounded-start"
+                className="img-fluid rounded-start"
                 alt="..."
                 style={{
                   height: "100%",
@@ -65,10 +65,12 @@ function HeroHeader() {
                 }}
               />
             </div>
-            <div class="col-sm-9">
-              <div class="card-body">
-                <h2 class="card-title lead display-3">THE EIGENSOLVERS</h2>
-                <p class="card-text lead">
+            <div className="col-sm-9">
+              <div className="card-body">
+                <h2 className="card-title lead display-3 headerbrand">
+                  THE EIGENSOLVERS
+                </h2>
+                <p className="card-text lead">
                   Four guys who met on Reddit, come together to learn and
                   explore various aspects of Quantum Computing and expand the QC
                   commumity.

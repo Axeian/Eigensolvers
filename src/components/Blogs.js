@@ -31,6 +31,7 @@ function Blogs() {
               src={process.env.PUBLIC_URL + "/blog1.jpg"}
               className="img-fluid rounded-start"
               alt="..."
+              style={{ height: "100%", width: "100%" }}
             />
           </div>
           <div className="col-md-8" style={{ backgroundColor: "#f5f5f5" }}>
@@ -69,6 +70,7 @@ function Blogs() {
               src={process.env.PUBLIC_URL + "/blog2.jpg"}
               className="img-fluid rounded-start"
               alt="..."
+              style={{ height: "100%", width: "100%" }}
             />
           </div>
           <div className="col-md-8" style={{ backgroundColor: "#f5f5f5" }}>
